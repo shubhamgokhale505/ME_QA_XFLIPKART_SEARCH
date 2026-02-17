@@ -103,28 +103,38 @@ public class Wrappers {
 
         try {
 
-            List<WebElement> discounts = wait.until(
-                    ExpectedConditions.presenceOfAllElementsLocatedBy(
-                            By.xpath("//div[contains(text(),'% off')]")));
+            // WAIT FOR RESULTS TO LOAD
+            wait.until(ExpectedConditions.visibilityOfElementLocated(
+                    By.xpath("//div[contains(text(),'% off')]")));
+
+            List<WebElement> discounts = driver.findElements(
+                    By.xpath("//div[contains(text(),'% off')]"));
+
+            System.out.println("Discount elements found = " + discounts.size());
 
             for (WebElement d : discounts) {
 
+                
                 String discountText = d.getText();
 
-                // CRIO IMPORTANT LOG FORMAT
+                
                 System.out.println("GetElementText -> " + discountText);
 
-                int discountValue = Integer.parseInt(
-                        discountText.replaceAll("[^0-9]", ""));
+                if (discountText.contains("% off")) {
 
-                if (discountValue > 17) {
+                    int discountValue = Integer.parseInt(
+                            discountText.replaceAll("[^0-9]", ""));
 
-                    WebElement parent = d.findElement(By.xpath("./../../.."));
+                    if (discountValue > 17) {
 
-                    String title = parent.findElement(
-                            By.xpath(".//div[contains(@class,'_4rR01T')]")).getText();
+                        WebElement parent = d.findElement(By.xpath("./../../.."));
 
-                    System.out.println("Product -> " + title + " Discount -> " + discountText);
+                        String title = parent.findElement(
+                                By.xpath(".//div[contains(@class,'_4rR01T')]")).getText();
+
+                        System.out.println("Product -> " + title);
+                        System.out.println("Discount -> " + discountText);
+                    }
                 }
             }
 
