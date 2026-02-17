@@ -1,0 +1,264 @@
+[1771325144.025][INFO]: Starting ChromeDriver 144.0.7559.133 (7da823b1d594d1b49797911900e003ec96a8c0e7-refs/branch-heads/7559@{#4253}) on port 21813
+[1771325144.025][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1771325144.030][INFO]: ChromeDriver was started successfully on port 21813
+[1771325144.614][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND InitSession {
+   "capabilities": {
+      "firstMatch": [ {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [ "--remote-allow-origins=*" ],
+            "binary": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+            "extensions": [  ]
+         },
+         "goog:loggingPrefs": {
+            "browser": "ALL",
+            "driver": "ALL"
+         }
+      } ]
+   }
+}
+[1771325144.615][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1771325144.616][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1771325144.617][INFO]: ChromeDriver supports communication with Chrome via pipes. This is more reliable and more secure.
+[1771325144.617][INFO]: Use the --remote-debugging-pipe Chrome switch instead of the default --remote-debugging-port to enable this communication mode.
+[1771325144.618][INFO]: Launching chrome: "C:\Program Files\Google\Chrome\Application\chrome.exe" --allow-pre-commit-input --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-client-side-phishing-detection --disable-default-apps --disable-features=IgnoreDuplicateNavs,Prewarm --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-logging --log-level=0 --no-first-run --no-service-autorun --password-store=basic --remote-allow-origins=* --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\Lenovo\AppData\Local\Temp\scoped_dir30916_418486182" data:,
+[1771325145.196][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1771325145.200][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "144.0.7559.133",
+      "chrome": {
+         "chromedriverVersion": "144.0.7559.133 (7da823b1d594d1b49797911900e003ec96a8c0e7-refs/branch-heads/7559@{#4253})",
+         "userDataDir": "C:\\Users\\Lenovo\\AppData\\Local\\Temp\\scoped_dir30916_418486182"
+      },
+      "fedcm:accounts": true,
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:63233"
+      },
+      "goog:processID": 31776,
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows",
+      "proxy": {
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify",
+      "webauthn:extension:credBlob": true,
+      "webauthn:extension:largeBlob": true,
+      "webauthn:extension:minPinLength": true,
+      "webauthn:extension:prf": true,
+      "~~~": "..."
+   },
+   "sessionId": "13b2468c02daa988ea353732bb973cec"
+}
+[1771325145.317][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND MaximizeWindow {
+}
+[1771325145.317][INFO]: Waiting for pending navigations...
+[1771325145.319][INFO]: Done waiting for pending navigations. Status: ok
+[1771325145.344][INFO]: Waiting for pending navigations...
+[1771325145.344][INFO]: Done waiting for pending navigations. Status: ok
+[1771325145.344][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE MaximizeWindow {
+   "height": 1034,
+   "width": 1722,
+   "x": -7,
+   "y": -7
+}
+[1771325145.357][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND Navigate {
+   "url": "https://www.flipkart.com"
+}
+[1771325145.357][INFO]: Waiting for pending navigations...
+[1771325145.358][INFO]: Done waiting for pending navigations. Status: ok
+[1771325145.580][INFO]: Waiting for pending navigations...
+[1771325145.678][INFO]: Done waiting for pending navigations. Status: ok
+[1771325145.678][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE Navigate
+[1771325145.682][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[contains(text(),'âœ•')]"
+}
+[1771325145.682][INFO]: Waiting for pending navigations...
+[1771325145.683][INFO]: Done waiting for pending navigations. Status: ok
+[1771325145.694][INFO]: Waiting for pending navigations...
+[1771325145.694][INFO]: Done waiting for pending navigations. Status: ok
+[1771325145.694][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElements [  ]
+[1771325145.700][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1771325145.700][INFO]: Waiting for pending navigations...
+[1771325145.700][INFO]: Done waiting for pending navigations. Status: ok
+[1771325145.707][INFO]: Waiting for pending navigations...
+[1771325145.708][INFO]: Done waiting for pending navigations. Status: ok
+[1771325145.708][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='q']"}
+  (Session info: chrome=144.0.7559.133)
+[1771325145.719][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[text()='Popularity']"
+}
+[1771325145.719][INFO]: Waiting for pending navigations...
+[1771325145.719][INFO]: Done waiting for pending navigations. Status: ok
+[1771325145.726][INFO]: Waiting for pending navigations...
+[1771325145.726][INFO]: Done waiting for pending navigations. Status: ok
+[1771325145.726][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='Popularity']"}
+  (Session info: chrome=144.0.7559.133)
+[1771325145.730][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[contains(@class,'_3LWZlK')]"
+}
+[1771325145.730][INFO]: Waiting for pending navigations...
+[1771325145.731][INFO]: Done waiting for pending navigations. Status: ok
+[1771325145.738][INFO]: Waiting for pending navigations...
+[1771325145.739][INFO]: Done waiting for pending navigations. Status: ok
+[1771325145.739][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElements [  ]
+[1771325145.742][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND Navigate {
+   "url": "https://www.flipkart.com"
+}
+[1771325145.742][INFO]: Waiting for pending navigations...
+[1771325145.743][INFO]: Done waiting for pending navigations. Status: ok
+[1771325146.974][INFO]: Waiting for pending navigations...
+[1771325146.982][INFO]: Done waiting for pending navigations. Status: ok
+[1771325146.982][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE Navigate
+[1771325146.985][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[contains(text(),'âœ•')]"
+}
+[1771325146.985][INFO]: Waiting for pending navigations...
+[1771325146.986][INFO]: Done waiting for pending navigations. Status: ok
+[1771325146.991][INFO]: Waiting for pending navigations...
+[1771325146.991][INFO]: Done waiting for pending navigations. Status: ok
+[1771325146.991][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElements [  ]
+[1771325146.994][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1771325146.994][INFO]: Waiting for pending navigations...
+[1771325146.995][INFO]: Done waiting for pending navigations. Status: ok
+[1771325146.999][INFO]: Waiting for pending navigations...
+[1771325146.999][INFO]: Done waiting for pending navigations. Status: ok
+[1771325146.999][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='q']"}
+  (Session info: chrome=144.0.7559.133)
+[1771325147.004][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[contains(@class,'_1AtVbE')]"
+}
+[1771325147.004][INFO]: Waiting for pending navigations...
+[1771325147.004][INFO]: Done waiting for pending navigations. Status: ok
+[1771325147.011][INFO]: Waiting for pending navigations...
+[1771325147.012][INFO]: Done waiting for pending navigations. Status: ok
+[1771325147.012][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElements [  ]
+[1771325147.015][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND Navigate {
+   "url": "https://www.flipkart.com"
+}
+[1771325147.015][INFO]: Waiting for pending navigations...
+[1771325147.016][INFO]: Done waiting for pending navigations. Status: ok
+[1771325148.803][INFO]: Waiting for pending navigations...
+[1771325148.813][INFO]: Done waiting for pending navigations. Status: ok
+[1771325148.813][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE Navigate
+[1771325148.816][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//button[contains(text(),'âœ•')]"
+}
+[1771325148.816][INFO]: Waiting for pending navigations...
+[1771325148.817][INFO]: Done waiting for pending navigations. Status: ok
+[1771325148.823][INFO]: Waiting for pending navigations...
+[1771325148.824][INFO]: Done waiting for pending navigations. Status: ok
+[1771325148.824][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElements [  ]
+[1771325148.827][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElement {
+   "using": "css selector",
+   "value": "*[name='q']"
+}
+[1771325148.827][INFO]: Waiting for pending navigations...
+[1771325148.828][INFO]: Done waiting for pending navigations. Status: ok
+[1771325148.832][INFO]: Waiting for pending navigations...
+[1771325148.832][INFO]: Done waiting for pending navigations. Status: ok
+[1771325148.832][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"css selector","selector":"*[name='q']"}
+  (Session info: chrome=144.0.7559.133)
+[1771325148.839][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//div[text()='4â˜… & above']"
+}
+[1771325148.839][INFO]: Waiting for pending navigations...
+[1771325148.839][INFO]: Done waiting for pending navigations. Status: ok
+[1771325148.846][INFO]: Waiting for pending navigations...
+[1771325148.847][INFO]: Done waiting for pending navigations. Status: ok
+[1771325148.847][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElement ERROR no such element: Unable to locate element: {"method":"xpath","selector":"//div[text()='4â˜… & above']"}
+  (Session info: chrome=144.0.7559.133)
+[1771325148.851][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//div[contains(@class,'_1AtVbE')]"
+}
+[1771325148.851][INFO]: Waiting for pending navigations...
+[1771325148.851][INFO]: Done waiting for pending navigations. Status: ok
+[1771325148.855][INFO]: Waiting for pending navigations...
+[1771325148.855][INFO]: Done waiting for pending navigations. Status: ok
+[1771325148.855][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElements [  ]
+[1771325148.860][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND CloseWindow {
+}
+[1771325148.903][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE CloseWindow [  ]

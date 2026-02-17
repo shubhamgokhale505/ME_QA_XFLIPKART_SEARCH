@@ -1,0 +1,72 @@
+{
+    "actions": [
+        {
+            "COMMAND": null,
+            "RESPONSE": null
+        },
+        {
+            "COMMAND": "[1771325144.614][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
+            "RESPONSE": "[1771325145.200][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"144.0.7559.133\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"144.0.7559.133 (7da823b1d594d1b49797911900e003ec96a8c0e7-refs/branch-heads/7559@{#4253})\",\n         \"userDataDir\": \"C:\\\\Users\\\\Lenovo\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir30916_418486182\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:63233\"\n      },\n      \"goog:processID\": 31776,\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"webauthn:extension:prf\": true,\n      \"~~~\": \"...\"\n   },\n   \"sessionId\": \"13b2468c02daa988ea353732bb973cec\"\n}\n"
+        },
+        {
+            "COMMAND": "[1771325145.317][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND MaximizeWindow {\n}\n",
+            "RESPONSE": "[1771325145.344][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE MaximizeWindow {\n   \"height\": 1034,\n   \"width\": 1722,\n   \"x\": -7,\n   \"y\": -7\n}\n"
+        },
+        {
+            "COMMAND": "[1771325145.357][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com\"\n}\n",
+            "RESPONSE": "[1771325145.678][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1771325145.682][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771325145.694][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1771325145.700][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1771325145.708][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name='q']\"}\n  (Session info: chrome=144.0.7559.133)\n"
+        },
+        {
+            "COMMAND": "[1771325145.719][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[text()='Popularity']\"\n}\n",
+            "RESPONSE": "[1771325145.726][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='Popularity']\"}\n  (Session info: chrome=144.0.7559.133)\n"
+        },
+        {
+            "COMMAND": "[1771325145.730][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771325145.739][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1771325145.742][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com\"\n}\n",
+            "RESPONSE": "[1771325146.982][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1771325146.985][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771325146.991][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1771325146.994][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1771325146.999][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name='q']\"}\n  (Session info: chrome=144.0.7559.133)\n"
+        },
+        {
+            "COMMAND": "[1771325147.004][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_1AtVbE')]\"\n}\n",
+            "RESPONSE": "[1771325147.012][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1771325147.015][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com\"\n}\n",
+            "RESPONSE": "[1771325148.813][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE Navigate\n"
+        },
+        {
+            "COMMAND": "[1771325148.816][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771325148.824][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElements [  ]\n"
+        },
+        {
+            "COMMAND": "[1771325148.827][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1771325148.832][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"*[name='q']\"}\n  (Session info: chrome=144.0.7559.133)\n"
+        },
+        {
+            "COMMAND": "[1771325148.839][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[text()='4\u00c3\u00a2\u00cb\u0153\u00e2\u20ac\u00a6 & above']\"\n}\n",
+            "RESPONSE": "[1771325148.847][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[text()='4\u00c3\u00a2\u00cb\u0153\u00e2\u20ac\u00a6 & above']\"}\n  (Session info: chrome=144.0.7559.133)\n"
+        },
+        {
+            "COMMAND": "[1771325148.851][INFO]: [13b2468c02daa988ea353732bb973cec] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_1AtVbE')]\"\n}\n",
+            "RESPONSE": "[1771325148.855][INFO]: [13b2468c02daa988ea353732bb973cec] RESPONSE FindElements [  ]\n"
+        }
+    ]
+}
