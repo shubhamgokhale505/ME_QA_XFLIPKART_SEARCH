@@ -55,6 +55,7 @@ Improves maintainability
 Makes test cases clean and readable
 
 ✅ 4️⃣ Test Scenarios Implemented
+
 🧺 Test Case 1 — Washing Machine Rating Validation
 
 Scenario Flow
