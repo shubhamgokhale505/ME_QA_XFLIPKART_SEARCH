@@ -4,55 +4,55 @@ I recently worked on an automation project where I automated product search scen
 
 The goal of the project was not just UI automation, but also to build automation that satisfies:
 
-Log-based validation
+    Log-based validation
 
-Framework quality checks
+    Framework quality checks
 
-Proper waits implementation
+    Proper waits implementation
 
-Logging and reusable framework design
+    Logging and reusable framework design
 
 ✅ 2️⃣ Why I Built This Project
 
 I built this project to strengthen my real-world automation skills, especially around:
 
-Dynamic UI handling
+    Dynamic UI handling
 
-Data extraction from product listings
+    Data extraction from product listings
 
-Framework design using wrapper classes
+    Framework design using wrapper classes
 
 It also helped me practice writing automation aligned with platform assessment rules like:
 
-Mandatory waits
+    Mandatory waits
 
-Logging validations
+    Logging validations
 
-Clean framework structure
+    Clean framework structure
 
 ✅ 3️⃣ Framework Design
 
-I designed the framework using a Wrapper-Based Approach.
+    I designed the framework using a Wrapper-Based Approach.
 
 Instead of writing Selenium code directly inside test cases, I created a Wrappers class which contains reusable methods like:
 
-  Navigation handling
+    Navigation handling
 
-  Search operations
+    Search operations
 
-  Sorting operations
+    Sorting operations
 
-  Filter handling
+    Filter handling
 
-  Product data extraction
+    Product data extraction
 
 🔹 Benefits
 
-  Improves reusability
+    Improves reusability
 
-  Improves maintainability
+    Improves maintainability
 
-Makes test cases clean and readable
+    Makes test cases clean and readable
 
 ✅ 4️⃣ Test Scenarios Implemented
 
@@ -60,31 +60,31 @@ Makes test cases clean and readable
 
 Scenario Flow
 
-  Search for Washing Machine
+    Search for Washing Machine
 
-  Sort results by Popularity
+    Sort results by Popularity
 
-  Count products with rating ≤ 4
+    Count products with rating ≤ 4
 
 Technical Implementation
 
-  Used Explicit Waits for dynamic loading
+    Used Explicit Waits for dynamic loading
 
-  Extracted rating using element text
+     Extracted rating using element text
 
-  Filtered rating values programmatically
+    Filtered rating values programmatically
 
 📱 Test Case 2 — iPhone Discount Validation
 
 Scenario Flow
 
-  Search for iPhone
+    Search for iPhone
   
-  Extract discount percentage from product cards
+    Extract discount percentage from product cards
+  
+    Filter products with discount > 17%
 
-  Filter products with discount > 17%
-
-  Print product title and discount
+    Print product title and discount
 
 Technical Implementation
 
@@ -96,28 +96,28 @@ Technical Implementation
 
 Scenario Flow
 
-  Search Coffee Mug
+    Search Coffee Mug
 
-  Apply 4 Star & Above filter
+    Apply 4 Star & Above filter
 
 Extract:
 
-  Review count
+    Review count
 
-  Image URL
+    Image URL
 
-  Print Top 5 products
+    Print Top 5 products
 
 Technical Implementation
 
-  List handling using WebElement collections
+    List handling using WebElement collections
 
-  Index-based mapping of reviews and images
+    Index-based mapping of reviews and images
 
 ✅ 5️⃣ Technical Challenges Faced
 🔸 Dynamic UI Handling
 
-  Flipkart UI changes frequently, which makes locator stability difficult.
+    Flipkart UI changes frequently, which makes locator stability difficult.
 
 Solution
 
