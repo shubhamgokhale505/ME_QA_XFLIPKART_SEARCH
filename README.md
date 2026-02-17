@@ -1,156 +1,161 @@
-📦 Flipkart Search Automation (Selenium + TestNG)
+Project Introduction
 
-📌 Project Overview
+I recently worked on an automation project where I automated product search scenarios on Flipkart using Selenium WebDriver, Java, TestNG, and Gradle.
 
-This project automates product search and validation scenarios on Flipkart using Selenium WebDriver, TestNG, and Java.
+The goal of the project was not just UI automation, but also to build automation that satisfies:
 
-The automation is built to satisfy platform assessment rules including:
+Log-based validation
 
-WebDriverWait usage
+Framework quality checks
 
-Logging using System.out.println
+Proper waits implementation
 
-Chrome DevTools log validation (TypeElement, GetElementText etc.)
+Logging and reusable framework design
 
-Clean wrapper-based reusable design
+✅ 2️⃣ Why I Built This Project
 
-🛠 Tech Stack
+I built this project to strengthen my real-world automation skills, especially around:
 
-Java
+Dynamic UI handling
 
-Selenium WebDriver
+Data extraction from product listings
 
-TestNG
+Framework design using wrapper classes
 
-Gradle
+It also helped me practice writing automation aligned with platform assessment rules like:
 
-ChromeDriver
+Mandatory waits
 
-Selenium Manager
+Logging validations
 
-📂 Project Structure
-src
- └── test
-      ├── java
-      │    ├── demo
-      │    │    ├── TestCases.java
-      │    │    └── wrappers
-      │    │         └── Wrappers.java
+Clean framework structure
 
-✅ Automated Test Scenarios
-🔎 Test Case 01 — Washing Machine Rating Validation
+✅ 3️⃣ Framework Design
 
-Steps
+I designed the framework using a Wrapper-Based Approach.
 
-Navigate to Flipkart
+Instead of writing Selenium code directly inside test cases, I created a Wrappers class which contains reusable methods like:
+
+Navigation handling
+
+Search operations
+
+Sorting operations
+
+Filter handling
+
+Product data extraction
+
+🔹 Benefits
+
+Improves reusability
+
+Improves maintainability
+
+Makes test cases clean and readable
+
+✅ 4️⃣ Test Scenarios Implemented
+🧺 Test Case 1 — Washing Machine Rating Validation
+
+Scenario Flow
 
 Search for Washing Machine
 
-Sort by Popularity
+Sort results by Popularity
 
 Count products with rating ≤ 4
 
-Validations
+Technical Implementation
 
-Search text logging
+Used Explicit Waits for dynamic loading
 
-Rating extraction using GetElementText
+Extracted rating using element text
 
-Console output of count
+Filtered rating values programmatically
 
-📱 Test Case 02 — iPhone Discount Validation
+📱 Test Case 2 — iPhone Discount Validation
 
-Steps
-
-Navigate to Flipkart
+Scenario Flow
 
 Search for iPhone
 
-Extract discount values
+Extract discount percentage from product cards
 
-Print products with discount > 17%
+Filter products with discount > 17%
 
-Validations
+Print product title and discount
 
-Discount text extraction
+Technical Implementation
 
-Discount numeric parsing
+Text parsing using Regex
 
-Product title + discount logging
+Parent element traversal to fetch product title
 
-☕ Test Case 03 — Coffee Mug Review & Image Validation
+☕ Test Case 3 — Coffee Mug Review & Image Validation
 
-Steps
+Scenario Flow
 
-Navigate to Flipkart
+Search Coffee Mug
 
-Search for Coffee Mug
+Apply 4 Star & Above filter
 
-Apply 4★ & Above filter
+Extract:
 
-Print Top 5 products based on reviews
+Review count
 
-Print Image URLs
+Image URL
 
-Validations
+Print Top 5 products
 
-Review count extraction
+Technical Implementation
 
-Image URL extraction
+List handling using WebElement collections
 
-Console logging
+Index-based mapping of reviews and images
 
-⚙️ Key Framework Features
-✔ Explicit Wait Handling
-WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+✅ 5️⃣ Technical Challenges Faced
+🔸 Dynamic UI Handling
 
-✔ Wrapper-Based Reusable Design
+Flipkart UI changes frequently, which makes locator stability difficult.
 
-All reusable actions are inside:
+Solution
 
-Wrappers.java
+Used Explicit Waits
 
+Used Flexible XPath strategies
 
-Examples:
+🔸 Log-Based Validation Requirements
 
-Navigation
+Platform required specific commands in browser logs.
 
-Search
+Solution
 
-Sorting
+Added structured logging
 
-Filters
+Ensured element text extraction happens properly
 
-Data Extraction
+✅ 6️⃣ Selenium Concepts Used
 
+WebDriverWait
 
-▶ How To Run
-Run Using Gradle
-./gradlew test
+ExpectedConditions
 
-Run Assessment Script
-./run_platform_assesment.sh
+Dynamic XPath Handling
 
-📊 Assessment Compliance
+Exception Handling
 
-✔ WebDriverWait implemented
-✔ Console logging implemented
-✔ No unnecessary Thread.sleep usage
+List Data Extraction
 
-🧠 Learnings From This Project
+Wrapper Design Pattern
 
-Handling dynamic web elements
+✅ 7️⃣ Key Learnings
 
-Using Explicit Wait properly
+This project helped me improve:
 
-Extracting structured data from UI
+Real-world UI automation handling
 
-Writing automation aligned to log-based validation
+Framework design thinking
 
-Debugging Gradle + Selenium + TestNG together
+Selenium + Gradle + TestNG integration debugging
 
-
-👨‍💻 Author
-
-Shubham Gokhale
-Automation QA | Selenium | API Testing | SDET
+Writing automation aligned with platform evaluation rules
