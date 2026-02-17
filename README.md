@@ -1,4 +1,5 @@
 📦 Flipkart Search Automation (Selenium + TestNG)
+
 📌 Project Overview
 
 This project automates product search and validation scenarios on Flipkart using Selenium WebDriver, TestNG, and Java.
