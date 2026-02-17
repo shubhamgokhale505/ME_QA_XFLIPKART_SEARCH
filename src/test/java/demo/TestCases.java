@@ -8,6 +8,9 @@ import org.openqa.selenium.logging.LoggingPreferences;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import java.time.Duration;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 
 import java.util.logging.Level;
 
@@ -54,7 +57,6 @@ public class TestCases {
         wrappers.printRatingLessThanFour();
     }
 
-    // Test Case 2 - iPhone discount check
     @Test
     public void testCase02() {
 
@@ -65,7 +67,6 @@ public class TestCases {
         wrappers.printIphoneDiscount();
     }
 
-    // Test Case 3 - Coffee Mug review check
     @Test
     public void testCase03() {
 

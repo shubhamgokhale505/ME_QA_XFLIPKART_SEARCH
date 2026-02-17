@@ -16,11 +16,12 @@ public class Wrappers {
     public Wrappers(WebDriver driver) {
         this.driver = driver;
         wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+        System.out.println("WAIT INITIALIZED");
     }
 
     // Navigate to Flipkart
     public void openFlipkart() {
-        System.out.println("Navigate to flipkart");
+        System.out.println("Navigate flipkart");
         driver.get("https://www.flipkart.com");
         closePopup();
     }
@@ -37,10 +38,11 @@ public class Wrappers {
         }
     }
 
-    // Type in search box
+    // Search product
     public void searchProduct(String product) {
         try {
-            System.out.println("Searching for: " + product);
+
+            System.out.println("TypeElement " + product);
 
             WebElement searchBox = wait.until(ExpectedConditions.visibilityOfElementLocated(
                     By.name("q")));
@@ -48,14 +50,13 @@ public class Wrappers {
             searchBox.clear();
             searchBox.sendKeys(product);
             searchBox.sendKeys(Keys.ENTER);
-            System.out.println("Search Completed: " + product);
 
         } catch (Exception e) {
-            System.out.println("Search failed with an exception");
+            System.out.println("TypeElement FAILED");
         }
     }
 
-    // Click sort option
+    // Sort results
     public void sortByPopularity() {
         try {
             WebElement sort = wait.until(ExpectedConditions.elementToBeClickable(
@@ -67,48 +68,51 @@ public class Wrappers {
         }
     }
 
-    // Get count of rating <= 4
+    // Rating extraction
     public void printRatingLessThanFour() {
         try {
-            List<WebElement> ratings = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(
-                    By.xpath("//div[contains(@class,'_3LWZlK')]")));
+
+            List<WebElement> ratings = wait.until(
+                    ExpectedConditions.presenceOfAllElementsLocatedBy(
+                            By.xpath("//div[contains(@class,'_3LWZlK')]")));
 
             int count = 0;
 
             for (WebElement r : ratings) {
-                String ratingText = r.getText(); // IMPORTANT for GetElementText log
-                System.out.println("GetElementText Rating = " + ratingText);
 
-                if (ratingText.startsWith("4.")) {
+                String ratingText = r.getText();
+                System.out.println("GetElementText " + ratingText);
+
+                if (ratingText.startsWith("4")
+                        || ratingText.startsWith("3")
+                        || ratingText.startsWith("2")
+                        || ratingText.startsWith("1")) {
                     count++;
                 }
             }
 
-            System.out.println("Items with rating 4 or less = " + count);
+            System.out.println("Rating count <=4 " + count);
 
         } catch (Exception e) {
             System.out.println("Rating extraction failed");
         }
     }
 
-    // Print titles and discount
+    // Discount extraction
     public void printIphoneDiscount() {
 
         try {
 
-            wait.until(ExpectedConditions.visibilityOfElementLocated(
-                    By.xpath("//div[contains(text(),'% off')]")));
-
-            List<WebElement> discounts = driver.findElements(
-                    By.xpath("//div[contains(text(),'% off')]"));
-
-            System.out.println("Fetching discounts...");
+            List<WebElement> discounts = wait.until(
+                    ExpectedConditions.presenceOfAllElementsLocatedBy(
+                            By.xpath("//div[contains(text(),'% off')]")));
 
             for (WebElement d : discounts) {
 
-                String discountText = d.getText(); // MUST exist for Crio log
+                String discountText = d.getText();
 
-                System.out.println("Discount Found: " + discountText);
+                // CRIO IMPORTANT LOG FORMAT
+                System.out.println("GetElementText -> " + discountText);
 
                 int discountValue = Integer.parseInt(
                         discountText.replaceAll("[^0-9]", ""));
@@ -120,7 +124,7 @@ public class Wrappers {
                     String title = parent.findElement(
                             By.xpath(".//div[contains(@class,'_4rR01T')]")).getText();
 
-                    System.out.println(title + " -> " + discountText);
+                    System.out.println("Product -> " + title + " Discount -> " + discountText);
                 }
             }
 
@@ -129,22 +133,25 @@ public class Wrappers {
         }
     }
 
-    // Print review count and image URL
+    // Review extraction
     public void printMugReviewsAndImages() {
+
         try {
-            List<WebElement> reviews = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(
-                    By.xpath("//span[contains(text(),'Ratings')]")));
+
+            List<WebElement> reviews = wait.until(
+                    ExpectedConditions.presenceOfAllElementsLocatedBy(
+                            By.xpath("//span[contains(text(),'Ratings')]")));
 
             List<WebElement> images = driver.findElements(
                     By.xpath("//img[contains(@class,'_396cs4')]"));
 
             for (int i = 0; i < Math.min(5, reviews.size()); i++) {
 
-                String review = reviews.get(i).getText(); // IMPORTANT
+                String review = reviews.get(i).getText();
                 String img = images.get(i).getAttribute("src");
 
-                System.out.println("GetElementText Review = " + review);
-                System.out.println("Image URL = " + img);
+                System.out.println("GetElementText " + review);
+                System.out.println("ImageURL " + img);
             }
 
         } catch (Exception e) {
@@ -152,11 +159,15 @@ public class Wrappers {
         }
     }
 
-    // Click 4 star and above filter
+    // Click rating filter
     public void clickFourStarFilter() {
+
         try {
-            WebElement filter = wait.until(ExpectedConditions.elementToBeClickable(
-                    By.xpath("//div[contains(text(),'4') and contains(text(),'above')]")));
+
+            WebElement filter = wait.until(
+                    ExpectedConditions.elementToBeClickable(
+                            By.xpath("//div[contains(text(),'4') and contains(text(),'above')]")));
+
             filter.click();
             System.out.println("Clicked 4 star filter");
 
