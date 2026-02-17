@@ -5,540 +5,528 @@
             "RESPONSE": null
         },
         {
-            "COMMAND": "[1771332914.311][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
-            "RESPONSE": "[1771332914.955][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"144.0.7559.133\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"144.0.7559.133 (7da823b1d594d1b49797911900e003ec96a8c0e7-refs/branch-heads/7559@{#4253})\",\n         \"userDataDir\": \"C:\\\\Users\\\\Lenovo\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir30692_1300672664\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:51515\"\n      },\n      \"goog:processID\": 14908,\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"webauthn:extension:prf\": true,\n      \"~~~\": \"...\"\n   },\n   \"sessionId\": \"769b2b2b71b40234f0400a84c83a6076\"\n}\n"
+            "COMMAND": "[1771333510.227][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND InitSession {\n   \"capabilities\": {\n      \"firstMatch\": [ {\n         \"browserName\": \"chrome\",\n         \"goog:chromeOptions\": {\n            \"args\": [ \"--remote-allow-origins=*\" ],\n            \"binary\": \"C:\\\\Program Files\\\\Google\\\\Chrome\\\\Application\\\\chrome.exe\",\n            \"extensions\": [  ]\n         },\n         \"goog:loggingPrefs\": {\n            \"browser\": \"ALL\",\n            \"driver\": \"ALL\"\n         }\n      } ]\n   }\n}\n",
+            "RESPONSE": "[1771333510.821][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE InitSession {\n   \"capabilities\": {\n      \"acceptInsecureCerts\": false,\n      \"browserName\": \"chrome\",\n      \"browserVersion\": \"144.0.7559.133\",\n      \"chrome\": {\n         \"chromedriverVersion\": \"144.0.7559.133 (7da823b1d594d1b49797911900e003ec96a8c0e7-refs/branch-heads/7559@{#4253})\",\n         \"userDataDir\": \"C:\\\\Users\\\\Lenovo\\\\AppData\\\\Local\\\\Temp\\\\scoped_dir24860_854139446\"\n      },\n      \"fedcm:accounts\": true,\n      \"goog:chromeOptions\": {\n         \"debuggerAddress\": \"localhost:56080\"\n      },\n      \"goog:processID\": 13716,\n      \"networkConnectionEnabled\": false,\n      \"pageLoadStrategy\": \"normal\",\n      \"platformName\": \"windows\",\n      \"proxy\": {\n      },\n      \"setWindowRect\": true,\n      \"strictFileInteractability\": false,\n      \"timeouts\": {\n         \"implicit\": 0,\n         \"pageLoad\": 300000,\n         \"script\": 30000\n      },\n      \"unhandledPromptBehavior\": \"dismiss and notify\",\n      \"webauthn:extension:credBlob\": true,\n      \"webauthn:extension:largeBlob\": true,\n      \"webauthn:extension:minPinLength\": true,\n      \"webauthn:extension:prf\": true,\n      \"~~~\": \"...\"\n   },\n   \"sessionId\": \"7ded54ce4f859367488d50b673dc0396\"\n}\n"
         },
         {
-            "COMMAND": "[1771332915.064][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND MaximizeWindow {\n}\n",
-            "RESPONSE": "[1771332915.102][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE MaximizeWindow {\n   \"height\": 1034,\n   \"width\": 1722,\n   \"x\": -7,\n   \"y\": -7\n}\n"
+            "COMMAND": "[1771333510.931][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND MaximizeWindow {\n}\n",
+            "RESPONSE": "[1771333510.953][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE MaximizeWindow {\n   \"height\": 1034,\n   \"width\": 1722,\n   \"x\": -7,\n   \"y\": -7\n}\n"
         },
         {
-            "COMMAND": "[1771332915.115][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com\"\n}\n",
-            "RESPONSE": "[1771332916.602][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE Navigate\n"
+            "COMMAND": "[1771333510.965][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com\"\n}\n",
+            "RESPONSE": "[1771333512.533][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE Navigate\n"
         },
         {
-            "COMMAND": "[1771332916.609][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332916.656][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333512.541][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333512.586][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332917.174][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332917.185][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333513.108][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333513.119][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332917.701][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332917.710][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333513.637][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333513.644][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332918.219][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332918.227][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333514.154][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333514.160][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332918.746][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332918.753][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333514.668][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333514.675][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332919.262][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332919.268][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333515.180][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333515.187][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332919.776][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332919.783][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333515.693][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333515.700][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332920.291][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332920.298][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333516.205][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333516.213][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332920.804][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332920.811][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333516.721][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333516.728][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332921.319][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332921.325][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333517.234][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333517.241][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332921.835][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332921.843][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333517.747][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333517.754][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332922.351][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332922.358][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333518.264][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333518.271][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332922.869][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332922.876][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333518.780][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333518.791][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332923.384][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332923.390][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333519.308][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333519.316][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332923.897][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332923.904][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333519.822][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333519.829][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332924.411][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332924.418][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333520.337][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333520.344][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332924.926][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332924.935][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333520.848][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333520.856][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332925.442][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332925.449][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333521.362][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333521.369][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332925.955][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332925.961][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333521.876][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333521.883][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332926.466][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332926.476][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333522.389][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333522.398][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332926.993][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332927.003][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333522.916][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333522.924][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332927.008][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
-            "RESPONSE": "[1771332927.019][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.10855ADCA40393788C73EC094AD7992B.e.31\"\n}\n"
+            "COMMAND": "[1771333522.928][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1771333522.936][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.E8355557521DAD328B69FA6068F38183.d.0228AC892412FE8562691A44743F6711.e.35\"\n}\n"
         },
         {
-            "COMMAND": "[1771332927.042][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND IsElementEnabled {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.10855ADCA40393788C73EC094AD7992B.e.31\"\n}\n",
-            "RESPONSE": "[1771332927.052][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE IsElementEnabled true\n"
+            "COMMAND": "[1771333522.954][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND ClearElement {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.0228AC892412FE8562691A44743F6711.e.35\"\n}\n",
+            "RESPONSE": "[1771333522.985][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE ClearElement\n"
         },
         {
-            "COMMAND": "[1771332927.055][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND ClearElement {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.10855ADCA40393788C73EC094AD7992B.e.31\"\n}\n",
-            "RESPONSE": "[1771332927.093][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE ClearElement\n"
+            "COMMAND": "[1771333522.988][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND TypeElement {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.0228AC892412FE8562691A44743F6711.e.35\",\n   \"text\": \"Washing Machine\",\n   \"value\": [ \"W\", \"a\", \"s\", \"h\", \"i\", \"n\", \"g\", \" \", \"M\", \"a\", \"c\", \"h\", \"i\", \"n\", \"e\" ]\n}\n",
+            "RESPONSE": "[1771333523.053][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE TypeElement\n"
         },
         {
-            "COMMAND": "[1771332927.097][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND TypeElement {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.10855ADCA40393788C73EC094AD7992B.e.31\",\n   \"text\": \"Washing Machine\",\n   \"value\": [ \"W\", \"a\", \"s\", \"h\", \"i\", \"n\", \"g\", \" \", \"M\", \"a\", \"c\", \"h\", \"i\", \"n\", \"e\" ]\n}\n",
-            "RESPONSE": "[1771332927.173][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE TypeElement\n"
+            "COMMAND": "[1771333523.058][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND TypeElement {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.0228AC892412FE8562691A44743F6711.e.35\",\n   \"text\": \"\u00ee\u20ac\u2021\",\n   \"value\": [ \"\u00ee\u20ac\u2021\" ]\n}\n",
+            "RESPONSE": "[1771333525.094][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE TypeElement\n"
         },
         {
-            "COMMAND": "[1771332927.180][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND TypeElement {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.10855ADCA40393788C73EC094AD7992B.e.31\",\n   \"text\": \"\u00ee\u20ac\u2021\",\n   \"value\": [ \"\u00ee\u20ac\u2021\" ]\n}\n",
-            "RESPONSE": "[1771332929.349][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE TypeElement\n"
+            "COMMAND": "[1771333525.097][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'Popularity')]\"\n}\n",
+            "RESPONSE": "[1771333525.108][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.E8355557521DAD328B69FA6068F38183.d.8F3182A40871EDEB7C5365AE7E8F89F6.e.245\"\n}\n"
         },
         {
-            "COMMAND": "[1771332929.352][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'Popularity')]\"\n}\n",
-            "RESPONSE": "[1771332929.364][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.2785A573D982F594C7B65BB20B2F6AB7.e.260\"\n}\n"
+            "COMMAND": "[1771333525.122][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND IsElementEnabled {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.8F3182A40871EDEB7C5365AE7E8F89F6.e.245\"\n}\n",
+            "RESPONSE": "[1771333525.126][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE IsElementEnabled true\n"
         },
         {
-            "COMMAND": "[1771332929.379][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND IsElementEnabled {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.2785A573D982F594C7B65BB20B2F6AB7.e.260\"\n}\n",
-            "RESPONSE": "[1771332929.383][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE IsElementEnabled true\n"
+            "COMMAND": "[1771333525.129][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND ClickElement {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.8F3182A40871EDEB7C5365AE7E8F89F6.e.245\"\n}\n",
+            "RESPONSE": "[1771333525.201][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE ClickElement\n"
         },
         {
-            "COMMAND": "[1771332929.386][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND ClickElement {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.2785A573D982F594C7B65BB20B2F6AB7.e.260\"\n}\n",
-            "RESPONSE": "[1771332929.468][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE ClickElement\n"
+            "COMMAND": "[1771333525.204][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333525.216][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332929.472][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332929.486][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333525.719][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333525.726][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332929.990][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332930.009][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333526.243][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333526.249][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332930.513][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332930.520][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333526.753][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333526.759][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332931.023][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332931.029][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333527.263][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333527.269][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332931.532][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332931.549][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333527.773][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333527.779][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332932.058][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332932.075][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333528.287][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333528.293][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332932.582][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332932.588][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333528.803][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333528.809][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332933.094][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332933.100][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333529.312][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333529.318][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332933.606][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332933.613][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333529.825][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333529.832][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332934.118][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332934.124][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333530.341][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333530.347][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332934.628][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332934.634][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333530.855][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333530.861][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332935.141][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332935.147][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333531.367][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333531.373][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332935.653][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332935.660][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333531.877][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333531.883][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332936.176][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332936.182][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333532.387][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333532.393][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332936.687][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332936.693][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333532.901][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333532.907][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332937.196][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332937.202][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333533.415][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333533.421][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332937.711][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332937.718][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333533.929][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333533.935][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332938.220][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332938.238][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333534.444][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333534.450][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332938.743][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332938.750][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333534.957][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333534.963][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332939.256][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332939.262][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333535.469][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
+            "RESPONSE": "[1771333535.474][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332939.770][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(@class,'_3LWZlK')]\"\n}\n",
-            "RESPONSE": "[1771332939.776][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333535.478][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com\"\n}\n",
+            "RESPONSE": "[1771333536.784][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE Navigate\n"
         },
         {
-            "COMMAND": "[1771332939.779][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com\"\n}\n",
-            "RESPONSE": "[1771332941.321][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE Navigate\n"
+            "COMMAND": "[1771333536.787][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333536.822][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332941.323][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332941.338][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333537.334][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333537.340][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332941.850][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332941.856][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333537.850][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333537.856][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332942.362][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332942.371][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333538.365][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333538.373][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332942.879][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332942.886][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333538.878][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333538.886][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332943.396][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332943.402][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333539.393][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333539.401][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332943.910][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332943.916][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333539.905][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333539.912][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332944.425][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332944.432][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333540.421][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333540.431][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332944.935][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332944.942][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333540.935][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333540.942][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332945.451][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332945.458][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333541.446][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333541.452][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332945.968][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332945.975][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333541.962][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333541.970][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332946.485][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332946.492][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333542.476][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333542.482][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332946.999][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332947.007][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333542.991][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333542.998][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332947.525][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332947.533][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333543.508][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333543.517][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332948.039][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332948.046][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333544.022][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333544.028][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332948.557][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332948.566][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333544.538][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333544.546][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332949.073][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332949.081][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333545.054][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333545.061][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332949.590][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332949.597][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333545.573][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333545.579][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332950.116][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332950.123][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333546.086][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333546.092][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332950.628][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332950.634][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333546.598][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333546.606][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332951.144][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332951.152][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333547.115][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333547.122][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332951.657][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332951.663][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333547.125][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1771333547.130][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.E8355557521DAD328B69FA6068F38183.d.BB620AAFFE70F5AF415E409C77AF89D6.e.267\"\n}\n"
         },
         {
-            "COMMAND": "[1771332951.666][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
-            "RESPONSE": "[1771332951.672][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.62174A0E7C1EDD0AEE98E1337D6C7D28.e.283\"\n}\n"
+            "COMMAND": "[1771333547.142][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND ClearElement {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.BB620AAFFE70F5AF415E409C77AF89D6.e.267\"\n}\n",
+            "RESPONSE": "[1771333547.161][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE ClearElement\n"
         },
         {
-            "COMMAND": "[1771332951.684][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND IsElementEnabled {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.62174A0E7C1EDD0AEE98E1337D6C7D28.e.283\"\n}\n",
-            "RESPONSE": "[1771332951.690][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE IsElementEnabled true\n"
+            "COMMAND": "[1771333547.163][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND TypeElement {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.BB620AAFFE70F5AF415E409C77AF89D6.e.267\",\n   \"text\": \"iPhone\",\n   \"value\": [ \"i\", \"P\", \"h\", \"o\", \"n\", \"e\" ]\n}\n",
+            "RESPONSE": "[1771333547.220][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE TypeElement\n"
         },
         {
-            "COMMAND": "[1771332951.692][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND ClearElement {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.62174A0E7C1EDD0AEE98E1337D6C7D28.e.283\"\n}\n",
-            "RESPONSE": "[1771332951.709][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE ClearElement\n"
+            "COMMAND": "[1771333547.222][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND TypeElement {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.BB620AAFFE70F5AF415E409C77AF89D6.e.267\",\n   \"text\": \"\u00ee\u20ac\u2021\",\n   \"value\": [ \"\u00ee\u20ac\u2021\" ]\n}\n",
+            "RESPONSE": "[1771333548.136][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE TypeElement\n"
         },
         {
-            "COMMAND": "[1771332951.712][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND TypeElement {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.62174A0E7C1EDD0AEE98E1337D6C7D28.e.283\",\n   \"text\": \"iPhone\",\n   \"value\": [ \"i\", \"P\", \"h\", \"o\", \"n\", \"e\" ]\n}\n",
-            "RESPONSE": "[1771332951.764][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE TypeElement\n"
+            "COMMAND": "[1771333548.139][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333548.164][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332951.767][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND TypeElement {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.62174A0E7C1EDD0AEE98E1337D6C7D28.e.283\",\n   \"text\": \"\u00ee\u20ac\u2021\",\n   \"value\": [ \"\u00ee\u20ac\u2021\" ]\n}\n",
-            "RESPONSE": "[1771332952.807][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE TypeElement\n"
+            "COMMAND": "[1771333548.669][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333548.676][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332952.809][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332952.825][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333549.186][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333549.192][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332953.333][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332953.341][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333549.705][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333549.712][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332953.847][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332953.856][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333550.223][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333550.232][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332954.361][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332954.367][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333550.734][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333550.741][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332954.879][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332954.886][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333551.247][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333551.254][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332955.394][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332955.402][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333551.760][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333551.767][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332955.909][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332955.917][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333552.276][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333552.283][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332956.424][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332956.432][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333552.791][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333552.798][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332956.940][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332956.948][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333553.306][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333553.313][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332957.457][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332957.464][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333553.822][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333553.828][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332957.974][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332957.981][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333554.337][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333554.343][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332958.489][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332958.498][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333554.852][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333554.858][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332959.002][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332959.008][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333555.367][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333555.373][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332959.520][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332959.526][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333555.881][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333555.887][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332960.033][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332960.039][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333556.393][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333556.399][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332960.548][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332960.554][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333556.908][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333556.914][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332961.066][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332961.072][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333557.419][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333557.425][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332961.579][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332961.585][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333557.933][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333557.939][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332962.093][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332962.099][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333558.445][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'% off')]\"\n}\n",
+            "RESPONSE": "[1771333558.450][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//div[contains(text(),'% off')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332962.609][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332962.615][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333558.453][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com\"\n}\n",
+            "RESPONSE": "[1771333559.890][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE Navigate\n"
         },
         {
-            "COMMAND": "[1771332963.127][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//div[@class='_4rR01T']\"\n}\n",
-            "RESPONSE": "[1771332963.133][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
+            "COMMAND": "[1771333559.893][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333559.932][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332963.136][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND Navigate {\n   \"url\": \"https://www.flipkart.com\"\n}\n",
-            "RESPONSE": "[1771332964.699][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE Navigate\n"
+            "COMMAND": "[1771333560.448][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333560.465][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332964.701][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332964.742][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333560.976][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333560.983][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332965.245][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332965.251][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333561.490][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333561.496][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332965.756][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332965.763][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333562.014][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333562.021][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332966.271][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332966.277][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333562.531][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333562.538][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332966.781][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332966.789][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333563.046][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333563.052][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332967.295][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332967.304][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333563.561][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333563.567][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332967.822][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332967.829][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333564.073][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333564.080][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332968.338][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332968.347][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333564.584][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333564.591][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332968.851][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332968.859][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333565.098][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333565.104][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332969.366][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332969.373][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333565.613][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333565.620][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332969.879][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332969.887][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333566.126][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333566.132][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332970.396][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332970.404][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333566.642][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333566.648][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332970.911][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332970.919][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333567.156][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333567.163][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332971.436][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332971.444][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333567.672][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333567.680][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332971.953][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332971.960][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333568.182][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333568.189][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332972.468][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332972.474][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333568.694][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333568.700][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332972.983][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332972.990][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333569.215][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333569.221][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332973.498][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332973.504][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333569.725][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333569.731][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332974.013][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332974.021][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333570.239][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
+            "RESPONSE": "[1771333570.245][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
         },
         {
-            "COMMAND": "[1771332974.526][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332974.560][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333570.248][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
+            "RESPONSE": "[1771333570.253][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.E8355557521DAD328B69FA6068F38183.d.AEDCDC4E007820D369C2F1F001ED0663.e.508\"\n}\n"
         },
         {
-            "COMMAND": "[1771332975.071][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"\n}\n",
-            "RESPONSE": "[1771332975.080][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement ERROR no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//button[contains(text(),'\u00c3\u00a2\u00c5\u201c\u00e2\u20ac\u00a2')]\"}\n  (Session info: chrome=144.0.7559.133)\n"
+            "COMMAND": "[1771333570.265][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND ClearElement {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.AEDCDC4E007820D369C2F1F001ED0663.e.508\"\n}\n",
+            "RESPONSE": "[1771333570.286][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE ClearElement\n"
         },
         {
-            "COMMAND": "[1771332975.083][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"css selector\",\n   \"value\": \"*[name='q']\"\n}\n",
-            "RESPONSE": "[1771332975.090][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.AC79E83B36D6698A56CC149026C884B9.e.520\"\n}\n"
+            "COMMAND": "[1771333570.289][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND TypeElement {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.AEDCDC4E007820D369C2F1F001ED0663.e.508\",\n   \"text\": \"Coffee Mug\",\n   \"value\": [ \"C\", \"o\", \"f\", \"f\", \"e\", \"e\", \" \", \"M\", \"u\", \"g\" ]\n}\n",
+            "RESPONSE": "[1771333570.342][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE TypeElement\n"
         },
         {
-            "COMMAND": "[1771332975.102][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND IsElementEnabled {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.AC79E83B36D6698A56CC149026C884B9.e.520\"\n}\n",
-            "RESPONSE": "[1771332975.108][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE IsElementEnabled true\n"
+            "COMMAND": "[1771333570.346][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND TypeElement {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.AEDCDC4E007820D369C2F1F001ED0663.e.508\",\n   \"text\": \"\u00ee\u20ac\u2021\",\n   \"value\": [ \"\u00ee\u20ac\u2021\" ]\n}\n",
+            "RESPONSE": "[1771333572.038][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE TypeElement\n"
         },
         {
-            "COMMAND": "[1771332975.110][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND ClearElement {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.AC79E83B36D6698A56CC149026C884B9.e.520\"\n}\n",
-            "RESPONSE": "[1771332975.128][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE ClearElement\n"
+            "COMMAND": "[1771333572.040][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'4') and contains(text(),'above')]\"\n}\n",
+            "RESPONSE": "[1771333572.052][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.E8355557521DAD328B69FA6068F38183.d.891B8B28FD18F07889B9E28254D2D849.e.610\"\n}\n"
         },
         {
-            "COMMAND": "[1771332975.130][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND TypeElement {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.AC79E83B36D6698A56CC149026C884B9.e.520\",\n   \"text\": \"Coffee Mug\",\n   \"value\": [ \"C\", \"o\", \"f\", \"f\", \"e\", \"e\", \" \", \"M\", \"u\", \"g\" ]\n}\n",
-            "RESPONSE": "[1771332975.190][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE TypeElement\n"
+            "COMMAND": "[1771333572.062][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND IsElementEnabled {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.891B8B28FD18F07889B9E28254D2D849.e.610\"\n}\n",
+            "RESPONSE": "[1771333572.066][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE IsElementEnabled true\n"
         },
         {
-            "COMMAND": "[1771332975.193][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND TypeElement {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.AC79E83B36D6698A56CC149026C884B9.e.520\",\n   \"text\": \"\u00ee\u20ac\u2021\",\n   \"value\": [ \"\u00ee\u20ac\u2021\" ]\n}\n",
-            "RESPONSE": "[1771332977.352][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE TypeElement\n"
+            "COMMAND": "[1771333572.068][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND ClickElement {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.891B8B28FD18F07889B9E28254D2D849.e.610\"\n}\n",
+            "RESPONSE": "[1771333572.140][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE ClickElement\n"
         },
         {
-            "COMMAND": "[1771332977.354][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElement {\n   \"using\": \"xpath\",\n   \"value\": \"//div[contains(text(),'4') and contains(text(),'above')]\"\n}\n",
-            "RESPONSE": "[1771332977.366][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElement {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.222D65C31B88568726AE930DCA2EEEC5.e.609\"\n}\n"
+            "COMMAND": "[1771333572.143][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//span[contains(text(),'Ratings')]\"\n}\n",
+            "RESPONSE": "[1771333572.155][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.E8355557521DAD328B69FA6068F38183.d.891B8B28FD18F07889B9E28254D2D849.e.626\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.E8355557521DAD328B69FA6068F38183.d.891B8B28FD18F07889B9E28254D2D849.e.627\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.E8355557521DAD328B69FA6068F38183.d.891B8B28FD18F07889B9E28254D2D849.e.628\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.E8355557521DAD328B69FA6068F38183.d.891B8B28FD18F07889B9E28254D2D849.e.629\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.E8355557521DAD328B69FA6068F38183.d.891B8B28FD18F07889B9E28254D2D849.e.630\"\n} ]\n"
         },
         {
-            "COMMAND": "[1771332977.376][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND IsElementEnabled {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.222D65C31B88568726AE930DCA2EEEC5.e.609\"\n}\n",
-            "RESPONSE": "[1771332977.380][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE IsElementEnabled true\n"
+            "COMMAND": "[1771333572.157][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//img[contains(@class,'_396cs4')]\"\n}\n",
+            "RESPONSE": "[1771333572.167][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE FindElements [  ]\n"
         },
         {
-            "COMMAND": "[1771332977.382][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND ClickElement {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.222D65C31B88568726AE930DCA2EEEC5.e.609\"\n}\n",
-            "RESPONSE": "[1771332977.469][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE ClickElement\n"
-        },
-        {
-            "COMMAND": "[1771332977.471][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//span[contains(text(),'Ratings')]\"\n}\n",
-            "RESPONSE": "[1771332977.505][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [ {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.222D65C31B88568726AE930DCA2EEEC5.e.625\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.222D65C31B88568726AE930DCA2EEEC5.e.626\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.222D65C31B88568726AE930DCA2EEEC5.e.627\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.222D65C31B88568726AE930DCA2EEEC5.e.628\"\n}, {\n   \"element-6066-11e4-a52e-4f735466cecf\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.222D65C31B88568726AE930DCA2EEEC5.e.629\"\n} ]\n"
-        },
-        {
-            "COMMAND": "[1771332977.508][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND FindElements {\n   \"using\": \"xpath\",\n   \"value\": \"//img[contains(@class,'_396cs4')]\"\n}\n",
-            "RESPONSE": "[1771332977.519][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE FindElements [  ]\n"
-        },
-        {
-            "COMMAND": "[1771332977.521][INFO]: [769b2b2b71b40234f0400a84c83a6076] COMMAND GetElementText {\n   \"id\": \"f.FD8BD742E3C2E4D1D109FCA0FE285ED2.d.222D65C31B88568726AE930DCA2EEEC5.e.625\"\n}\n",
-            "RESPONSE": "[1771332977.537][INFO]: [769b2b2b71b40234f0400a84c83a6076] RESPONSE GetElementText \"49 Ratings\"\n"
+            "COMMAND": "[1771333572.170][INFO]: [7ded54ce4f859367488d50b673dc0396] COMMAND GetElementText {\n   \"id\": \"f.E8355557521DAD328B69FA6068F38183.d.891B8B28FD18F07889B9E28254D2D849.e.626\"\n}\n",
+            "RESPONSE": "[1771333572.181][INFO]: [7ded54ce4f859367488d50b673dc0396] RESPONSE GetElementText \"336 Ratings\"\n"
         }
     ]
 }

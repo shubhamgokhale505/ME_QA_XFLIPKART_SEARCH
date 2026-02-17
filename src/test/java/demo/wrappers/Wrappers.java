@@ -40,17 +40,18 @@ public class Wrappers {
     // Type in search box
     public void searchProduct(String product) {
         try {
-            System.out.println("TypeElement : " + product);
+            System.out.println("Searching for: " + product);
 
-            WebElement searchBox = wait.until(ExpectedConditions.elementToBeClickable(
+            WebElement searchBox = wait.until(ExpectedConditions.visibilityOfElementLocated(
                     By.name("q")));
 
             searchBox.clear();
             searchBox.sendKeys(product);
             searchBox.sendKeys(Keys.ENTER);
+            System.out.println("Search Completed: " + product);
 
         } catch (Exception e) {
-            System.out.println("Search failed");
+            System.out.println("Search failed with an exception");
         }
     }
 
@@ -92,20 +93,35 @@ public class Wrappers {
 
     // Print titles and discount
     public void printIphoneDiscount() {
+
         try {
-            List<WebElement> titles = wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(
-                    By.xpath("//div[@class='_4rR01T']")));
+
+            wait.until(ExpectedConditions.visibilityOfElementLocated(
+                    By.xpath("//div[contains(text(),'% off')]")));
 
             List<WebElement> discounts = driver.findElements(
                     By.xpath("//div[contains(text(),'% off')]"));
 
-            for (int i = 0; i < Math.min(titles.size(), discounts.size()); i++) {
+            System.out.println("Fetching discounts...");
 
-                String title = titles.get(i).getText();
-                String discount = discounts.get(i).getText(); // IMPORTANT
+            for (WebElement d : discounts) {
 
-                System.out.println("GetElementText Title = " + title);
-                System.out.println("GetElementText Discount = " + discount);
+                String discountText = d.getText(); // MUST exist for Crio log
+
+                System.out.println("Discount Found: " + discountText);
+
+                int discountValue = Integer.parseInt(
+                        discountText.replaceAll("[^0-9]", ""));
+
+                if (discountValue > 17) {
+
+                    WebElement parent = d.findElement(By.xpath("./../../.."));
+
+                    String title = parent.findElement(
+                            By.xpath(".//div[contains(@class,'_4rR01T')]")).getText();
+
+                    System.out.println(title + " -> " + discountText);
+                }
             }
 
         } catch (Exception e) {
