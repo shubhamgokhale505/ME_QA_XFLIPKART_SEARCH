@@ -36,21 +36,21 @@ I designed the framework using a Wrapper-Based Approach.
 
 Instead of writing Selenium code directly inside test cases, I created a Wrappers class which contains reusable methods like:
 
-Navigation handling
+  Navigation handling
 
-Search operations
+  Search operations
 
-Sorting operations
+  Sorting operations
 
-Filter handling
+  Filter handling
 
-Product data extraction
+  Product data extraction
 
 🔹 Benefits
 
-Improves reusability
+  Improves reusability
 
-Improves maintainability
+  Improves maintainability
 
 Makes test cases clean and readable
 
@@ -60,103 +60,103 @@ Makes test cases clean and readable
 
 Scenario Flow
 
-Search for Washing Machine
+  Search for Washing Machine
 
-Sort results by Popularity
+  Sort results by Popularity
 
-Count products with rating ≤ 4
+  Count products with rating ≤ 4
 
 Technical Implementation
 
-Used Explicit Waits for dynamic loading
+  Used Explicit Waits for dynamic loading
 
-Extracted rating using element text
+  Extracted rating using element text
 
-Filtered rating values programmatically
+  Filtered rating values programmatically
 
 📱 Test Case 2 — iPhone Discount Validation
 
 Scenario Flow
 
-Search for iPhone
+  Search for iPhone
+  
+  Extract discount percentage from product cards
 
-Extract discount percentage from product cards
+  Filter products with discount > 17%
 
-Filter products with discount > 17%
-
-Print product title and discount
+  Print product title and discount
 
 Technical Implementation
 
-Text parsing using Regex
+    Text parsing using Regex
 
-Parent element traversal to fetch product title
+    Parent element traversal to fetch product title
 
 ☕ Test Case 3 — Coffee Mug Review & Image Validation
 
 Scenario Flow
 
-Search Coffee Mug
+  Search Coffee Mug
 
-Apply 4 Star & Above filter
+  Apply 4 Star & Above filter
 
 Extract:
 
-Review count
+  Review count
 
-Image URL
+  Image URL
 
-Print Top 5 products
+  Print Top 5 products
 
 Technical Implementation
 
-List handling using WebElement collections
+  List handling using WebElement collections
 
-Index-based mapping of reviews and images
+  Index-based mapping of reviews and images
 
 ✅ 5️⃣ Technical Challenges Faced
 🔸 Dynamic UI Handling
 
-Flipkart UI changes frequently, which makes locator stability difficult.
+  Flipkart UI changes frequently, which makes locator stability difficult.
 
 Solution
 
-Used Explicit Waits
+    Used Explicit Waits
 
-Used Flexible XPath strategies
+    Used Flexible XPath strategies
 
 🔸 Log-Based Validation Requirements
 
-Platform required specific commands in browser logs.
+    Platform required specific commands in browser logs.
 
 Solution
 
-Added structured logging
+    Added structured logging
 
-Ensured element text extraction happens properly
+    Ensured element text extraction happens properly
 
 ✅ 6️⃣ Selenium Concepts Used
 
-WebDriverWait
+    WebDriverWait
 
 ExpectedConditions
 
-Dynamic XPath Handling
+    Dynamic XPath Handling
 
-Exception Handling
+    Exception Handling
 
-List Data Extraction
+    List Data Extraction
 
-Wrapper Design Pattern
+    Wrapper Design Pattern
 
 ✅ 7️⃣ Key Learnings
 
 This project helped me improve:
 
-Real-world UI automation handling
+    Real-world UI automation handling
 
-Framework design thinking
+    Framework design thinking
 
-Selenium + Gradle + TestNG integration debugging
+    Selenium + Gradle + TestNG integration debugging
 
-Writing automation aligned with platform evaluation rules
+    Writing automation aligned with platform evaluation rules
